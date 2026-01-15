@@ -26,3 +26,29 @@ body {
   background-color: var(--white);
   font-size: 16px;
 }
+
+.btn {
+  width: max-content;
+  padding: 0.5rem 1rem;
+  font-style: 1.2rem;
+  text-transform: uppercase;
+  border: 1px solid var(--green);
+  border-radius: 2rem;
+  color: var(--olive);
+  background-color: var(--white);
+  cursor: pointer;
+}
+
+.btn:hover {
+  color: var(--white);
+  background-color: var(--olive);
+  transition: color 1s ease, background-color 0.2s linear;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  line-height: 1;
+  color: var(--olive);
+}
