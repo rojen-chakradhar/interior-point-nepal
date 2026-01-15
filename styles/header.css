@@ -1,10 +1,16 @@
 header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 1rem 5rem;
   text-transform: uppercase;
   border-bottom: 1px solid var(--olive);
+  background-color: var(--white);
+  z-index: 999;
 }
 
 .logo {
