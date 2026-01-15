@@ -1,0 +1,51 @@
+.hero {
+  height: 100dvh;
+  width: 100%;
+  padding: 0 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5rem;
+}
+
+.heading {
+  font-size: 6rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  line-height: 1;
+  color: var(--olive);
+}
+
+.tagline {
+  font-size: 1rem;
+  color: var(--olive);
+}
+
+.hero-btn {
+  width: max-content;
+  padding: 0.5rem 1rem;
+  font-style: 1.2rem;
+  text-transform: uppercase;
+  border: 1px solid var(--green);
+  border-radius: 2rem;
+  color: var(--olive);
+  background-color: var(--white);
+  cursor: pointer;
+}
+
+.hero-btn:hover {
+  color: var(--white);
+  background-color: var(--green);
+  transition: color 1s ease, background-color 0.2s linear;
+}
+
+.intro-vid {
+  height: 100dvh;
+  width: 100%;
+}
+
+video {
+  height: 100dvh;
+  width: 100%;
+  object-fit: cover;
+}
