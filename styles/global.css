@@ -39,6 +39,10 @@ body {
   cursor: pointer;
 }
 
+.btn span {
+  color: var(--green);
+}
+
 .btn:hover {
   color: var(--white);
   background-color: var(--olive);
