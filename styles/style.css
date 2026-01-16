@@ -205,6 +205,7 @@ input {
   background-color: var(--white);
   border: none;
   border-bottom: 1px solid var(--olive);
+  text-align: left;
   &:focus {
     outline: none;
   }
@@ -242,6 +243,7 @@ input {
   border-bottom: 1px solid var(--white);
   color: var(--olive);
   cursor: pointer;
+  transition: border-bottom 0.3s ease;
   &:hover {
     border-bottom: 1px solid var(--olive);
   }
