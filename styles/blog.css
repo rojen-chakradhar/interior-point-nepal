@@ -1,0 +1,60 @@
+.hero {
+  height: 50dvh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content:end;
+  padding: 1rem 5rem;
+  border-bottom: 1px solid var(--olive);
+}
+
+.heading {
+  font-size: 6rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  line-height: 1;
+  color: var(--olive);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 4rem;
+  padding: 0 5rem;
+  border-bottom: 1px solid var(--olive);
+}
+
+.content {
+  height: 100%;
+  flex: 1;
+  padding: 1rem;
+  border: 1px solid var(--olive);
+}
+
+.noup {
+  border-top: none;
+}
+
+.nodown {
+  border-bottom: none;
+}
+
+.service-img {
+  height: 250px;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.title {
+  font-size: 1.5rem;
+  line-height: 1;
+  text-transform: capitalize;
+}
+
+.text {
+  font-size: 1rem;
+  line-height: 1;
+  text-transform: uppercase;
+  color: var(--olive);
+}
