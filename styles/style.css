@@ -5,7 +5,6 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 3rem;
 }
 
 .heading {
@@ -17,19 +16,20 @@
 }
 
 .tagline {
-  margin-top: 1rem;
+  margin-top: 2rem;
   font-size: 1.2rem;
   color: var(--olive);
 }
 
 .hero-btn {
+  margin-top: 1rem;
   color: var(--olive);
   background-color: var(--white);
 }
 
 .hero-btn:hover {
   color: var(--white);
-  background-color: var(--green);
+  background-color: var(--olive);
   transition: color 1s ease, background-color 0.2s linear;
 }
 
@@ -91,6 +91,7 @@ video {
 
 .work-name {
   font-size: 2rem;
+  line-height: 1;
   text-transform: capitalize;
   color: var(--olive);
 }
@@ -116,4 +117,30 @@ video {
   width: auto;
   object-position: center;
   object-fit: cover;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5rem;
+  padding: 1rem 5rem;
+}
+
+.service {
+  width: 300px;
+}
+
+.service-img {
+  height: 400px;
+  width: 300px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.service-name {
+  margin-top: 0.5rem;
+  font-size: 1.5rem;
+  line-height: 1;
+  text-transform: capitalize;
+  color: var(--olive);
 }
