@@ -51,6 +51,7 @@ header {
 
 .menu-link {
   display: none;
+  cursor: pointer;
   color: var(--olive);
 }
 
