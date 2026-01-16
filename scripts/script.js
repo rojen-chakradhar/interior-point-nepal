@@ -1,9 +1,11 @@
-let menu = document.querrySelector(".menu");
-
-function open() {
+function openMenu() {
+  let menu = document.querySelectorAll("aside");
   menu.style.display = "flex";
+  console.log("works");
 }
 
-function close() {
+function closeMenu() {
+  let menu = document.querySelectorAll("aside");
   menu.style.display = "none";
+  console.log("works");
 }

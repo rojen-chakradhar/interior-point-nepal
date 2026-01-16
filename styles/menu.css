@@ -1,5 +1,5 @@
 aside {
-  position: absolute;
+  position: fixed;
   top: 0;
   right: 0;
   height: 100dvh;
@@ -10,7 +10,7 @@ aside {
   padding: 1rem 5rem;
   text-transform: uppercase;
   background-color: var(--white);
-  z-index: 9999;
+  z-index: 100;
 }
 
 .close-link {
@@ -19,6 +19,7 @@ aside {
   right: 5rem;
   font-style: 1.5rem;
   font-weight: 500;
+  cursor: pointer;
   color: var(--olive);
 }
 
