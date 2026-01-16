@@ -127,9 +127,14 @@ video {
   border-bottom: 1px solid var(--olive);
 }
 
+.service {
+  padding: 1rem;
+  border: 1px solid var(--olive);
+}
+
 .service-img {
   height: 250px;
-  width: 300px;
+  width: 100%;
   object-fit: cover;
   object-position: center;
 }
