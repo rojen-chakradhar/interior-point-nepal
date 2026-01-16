@@ -27,19 +27,46 @@
 .content {
   height: 100%;
   flex: 1;
-  padding: 2rem;
+  padding: 1rem;
   border: 1px solid var(--olive);
+}
+
+.noup {
   border-top: none;
+}
+
+.nodown {
   border-bottom: none;
+}
+
+.work-img {
+  height: auto;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.work-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
 }
 
 .title {
   font-size: 1.5rem;
+  line-height: 1;
+  text-transform: capitalize;
+}
+
+small {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  color: var(--green);
 }
 
 .text {
-  margin-top: 1rem;
   font-size: 1rem;
-  font-weight: 500;
+  line-height: 1;
+  text-transform: uppercase;
   color: var(--olive);
 }
