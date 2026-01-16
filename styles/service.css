@@ -66,9 +66,6 @@
 	.heading {
 		font-size: 4rem;
 	}
-  small{
-    font-size: 0.8rem;
-  }
 	.title {
 		font-size: 1.5rem;
 	}
@@ -83,6 +80,10 @@
     .content:nth-child(3) {
       border-top: 1px solid var(--olive);
     }
+    .content:nth-child(7),
+    .content:nth-child(8) {
+      border-bottom: 1px solid var(--olive);
+    }
 	}
 }
 
@@ -93,9 +94,6 @@
 	.heading {
 		font-size: 4rem;
 	}
-  small{
-    font-size: 0.8rem;
-  }
 	.title {
 		font-size: 1.5rem;
 	}
@@ -109,6 +107,10 @@
     .content:nth-child(3) {
       border-top: 1px solid var(--olive);
     }
+    .content:nth-child(7),
+    .content:nth-child(8) {
+      border-bottom: 1px solid var(--olive);
+    }
 	}
 }
 
@@ -119,9 +121,6 @@
 	.heading {
 		font-size: 5rem;
 	}
-  small{
-    font-size: 0.8rem;
-  }
 	.title {
 		font-size: 2rem;
 	}
