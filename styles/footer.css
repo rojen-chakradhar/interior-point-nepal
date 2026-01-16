@@ -190,6 +190,15 @@ input {
 }
 
 @media screen and (min-width: 1366px) {
+  footer {
+    padding: 0 10rem;
+  }
+  .container{
+  	padding: 5rem 0;
+  	&:nth-child(2) {
+  		padding: 5rem 2rem;
+  	}
+  }
 	.footer-img {
 		width: 15rem;
 	}
@@ -207,6 +216,6 @@ input {
 		font-size: 1.2rem;
 	}
 	.link {
-		font-size: 1.2rem;
+		font-size: 1rem;
 	}
 }
