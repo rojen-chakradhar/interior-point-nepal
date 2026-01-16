@@ -51,13 +51,35 @@ header {
 
 .menu-link {
   display: none;
+  color: var(--olive);
 }
 
-@media (max-width: 1030px) {
+@media screen and (max-width: 480px) {
+  header {
+    padding: 1rem 2rem;
+  }
   .nav-links {
     display: none;
   }
   .menu-link {
     display: inline-block;
+  }
+}
+
+@media screen and (max-width: 960px) and (min-width: 481px) {
+  header {
+    padding: 1rem 3rem;
+  }
+  .nav-links {
+    display: none;
+  }
+  .menu-link {
+    display: inline-block;
+  }
+}
+
+@media screen and (min-width: 1366px) {
+  .nav-link {
+    font-size: 1.2rem;
   }
 }
