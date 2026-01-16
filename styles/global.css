@@ -37,6 +37,7 @@ body {
   color: var(--olive);
   background-color: var(--white);
   cursor: pointer;
+  transition: color 1s ease, background-color 0.2s linear;
 }
 
 .btn span {
@@ -46,7 +47,6 @@ body {
 .btn:hover {
   color: var(--white);
   background-color: var(--olive);
-  transition: color 1s ease, background-color 0.2s linear;
 }
 
 .title {

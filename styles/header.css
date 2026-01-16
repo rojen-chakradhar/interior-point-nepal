@@ -45,6 +45,10 @@ header {
   width: 100%;
 }
 
+.active::after {
+  width: 100%;
+}
+
 .menu-link {
   display: none;
 }
